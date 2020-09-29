@@ -1,0 +1,28 @@
+.bg1 {
+    background-image: url(./about_overlay.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    padding: 100px 0px 140px;
+}
+
+.aboutTextContainer{
+    margin-top: 160px;
+
+}
+
+
+.aboutTitle{
+    line-height: 1.25;
+    margin-top: 30px;
+    color: #5c93ce;
+    font-family: "Aleo";
+    font-weight: bold;
+}
+.aboutText{
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.929;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #646464;
+}

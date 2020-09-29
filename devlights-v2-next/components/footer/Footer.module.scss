@@ -1,0 +1,107 @@
+.footer {
+    width: 100%;
+    position: relative;
+    background: url(footer-bg.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 60px 0 100px 0;
+    // color: #fff !important;
+    // font-family: "Aleo";
+
+    p{
+      font-family: "open sans";
+      color:#fff;
+    }
+  
+   h2 {
+      font-weight: bold;
+      color: #5c93ce;
+      font-family: aleo;
+  }
+
+  .iconsFooter {
+    position: relative;
+    right: 35px;
+    color: #5c93ce !important;
+    top: 25px;
+    font-size: 20px;
+  }
+  
+   
+  .footerLogoDevlights {
+    width: 200px;
+    height: auto;
+  }
+  
+  li {
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    
+    list-style: none;
+  }
+  li:hover {
+    list-style: none;
+    border-bottom: none;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+   
+  .iconsFooterLinks{
+    color: #5c93ce;
+    font-size: 25px;
+    margin-right: 10px;
+  }
+
+   .FooterListUlLinks{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em !important;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 00px;  
+    }
+
+
+  
+  
+    .footer-menu-links-items {
+      margin-top: 0px;
+     
+      .social_icons {
+        padding: 0px 10px 10px 10px;
+  
+        
+        a {
+          height: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+   
+  
+    h4 {
+      font-size: 18px;
+      font-weight: bolder;
+      color: #fff;
+      font-family: "Open sans", sans-serif;
+      }
+  
+   
+  
+}
+  
+  @media (max-width: 500px) {
+   
+   
+     
+  }
+  
+ 

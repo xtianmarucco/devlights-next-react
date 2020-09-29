@@ -1,0 +1,52 @@
+.intro{
+    width: 100%;
+    position: relative;
+    background: url(intro-bg.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 200px 0 275px 0;
+    @media (max-width: 500px) {
+        padding: 70px 0 75px 0;
+
+
+    }
+
+}
+
+.introContainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    @media (max-width: 500px) {
+   
+        display: flex;
+        flex-direction:column-reverse;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding: 50px 0 75px 0;
+
+     
+        .introTitle{
+            margin-top: 40px;
+            font-size: 25px;
+            margin-bottom: 0px;
+            line-height: 36px;
+            text-align: center;
+            
+        }
+
+    }
+
+}
+
+.introTitle{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-family: "Aleo";
+    font-weight: 800;
+    line-height: 69px;
+}
+  
+ 

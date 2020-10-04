@@ -4,8 +4,10 @@ import IntroSection from '../components/intro-section/IntroSection';
 import About from '../components/about/About';
 import About2 from '../components/about2/About2';
 import Services from '../components/services/Services' ;
-import Footer from '../components/footer/Footer';
 import Technologies from '../components/technologies/Technologies';
+import Clients from '../components/clients/Clients';
+import Testimony from '../components/testimony/Testimony'
+import Footer from '../components/footer/Footer';
 
 
 export default function Home() {
@@ -22,7 +24,9 @@ export default function Home() {
       <About></About>
       <About2></About2>
       <Services></Services>
-  <Technologies></Technologies>
+      <Technologies></Technologies>
+      <Clients></Clients>
+      <Testimony></Testimony>
 
 
 

@@ -8,7 +8,9 @@ const Technologies = (props) => {
     return (
 
             <div id="about" className={styles.bg3}>
-                <div className="container">
+                <div className={styles.containerTech}>
+                 <div className="container">
+
                     <div className="row about-extra">
                         <div className="col-md-5 col-lg-5 col-xl-5">
                             <div className={styles.aboutTextContainer}>
@@ -29,6 +31,8 @@ const Technologies = (props) => {
                          </div>
                         
                     </div>
+                    </div>
+
                  </div>
                     
             </div>

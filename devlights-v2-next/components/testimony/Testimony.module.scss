@@ -1,3 +1,12 @@
+
+.sectionBg{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+
+}
+
+
 .sectionTitle{
 
     font-size: 36px;
@@ -14,21 +23,47 @@
         text-align: center;
     
     }
+    .carouselItem {
+        padding-right: 40px;
+        padding-left: 40px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 
+    .rowCard{
+        background-color: #fff;
+        padding: 25px;
+        margin-top: 50px;
+        box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.44);
+        margin-bottom: 50px;
+        border-radius: 25px;
+        width: fit-content;
+
+    }
+    
     .name{    
         font-family: aleo;
         padding: 5px;
         color: #5c93ce;
-        margin-bottom: -5px;
-        font-size: 25px;
+        margin-bottom: 5px;
+        font-size: 35px;
+        font-weight: bold;
     }
 
     .company{ 
         padding: 5px;
         color: #333;
-        margin-bottom: -5px;}
+        margin-bottom: 5px;}
 
     .role{
     padding: 5px;
     color: #333;
+    }
+
+    .testimonyText{
+    font-size: 15px;
+    text-transform: unset;
+    padding: 7px;
+    margin: 0;
+    color: #666;
     }

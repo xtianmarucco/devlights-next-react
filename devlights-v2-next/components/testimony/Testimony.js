@@ -28,37 +28,70 @@ const Testimony = ( props ) => {
                         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <div class="row-card col-12 col-md-10 col-sm-12 center">
-                            <div class="row" >
-                            <div class="column-img col-md-4 align-middle">
-                             <img src="/lindsay.png" alt=""/>
-                            </div>
-                            <div class="column-info col-md-8 col-sm-12 text-left align-middle"> 
-                                <h5 className={styles.name}> Lindsay Insco </h5>
-                                <h4 className={styles.company}> Millenium Digital Technologies </h4>
-                                    <h6 className={styles.role}> Lead Developer </h6>
-                                    <p class="column col-md-12 col-xs-12 text-left className={style.}" >Devlights has been such a useful team, I’ve come to look at them like family. With the variety of experience everyone has, it seems there’s always a great fit for a variety of projects. I’ve loved working with the team so much, I have brought them on to long-term projects with me and I wouldn’t have it any other way</p>
+                                <div className={styles.carouselItem }>
+                                <div class={styles.rowCard}>
+                                <div class="row " >
+                                <div class="column-img col-md-4 align-middle">
+                                    <img src="/lindsay.png" alt=""/>
                                 </div>
-                             </div>
-                            </div>
+                                <div class="column-info col-md-8 col-sm-12 text-left align-middle"> 
+                                    <h4 className={styles.name}> Lindsay Insco </h4>
+                                    <h5 className={styles.company}> Millenium Digital Technologies </h5>
+                                        <h6 className={styles.role}> Lead Developer </h6>
+                                        <p className={styles.testimonyText} >Devlights has been such a useful team, I’ve come to look at them like family. With the variety of experience everyone has, it seems there’s always a great fit for a variety of projects. I’ve loved working with the team so much, I have brought them on to long-term projects with me and I wouldn’t have it any other way</p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
 
                             </div>
+
+
                             <div className="carousel-item">
-
+                                <div className={styles.carouselItem }>
+                                <div class={styles.rowCard}>
+                                <div class="row " >
+                                <div class="column-img col-md-4 align-middle">
+                                    <img src="/darlene.png" alt=""/>
+                                </div>
+                                <div class="column-info col-md-8 col-sm-12 text-left align-middle"> 
+                                    <h4 className={styles.name}> Darlene Liebman </h4>
+                                    <h5 className={styles.company}> Creative Humans </h5>
+                                        <h6 className={styles.role}> Founder </h6>
+                                        <p className={styles.testimonyText} >Working with the team at Devlights has been a great experience. The Team is knowledgeable, responsive and gracious. I highly recommend them, for any project large or small.</p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
 
                             </div>
+
                             <div className="carousel-item">
-
+                                <div className={styles.carouselItem }>
+                                <div class={styles.rowCard}>
+                                <div class="row " >
+                                <div class="column-img col-md-4 align-middle">
+                                    <img src="/ross.png" alt=""/>
+                                </div>
+                                <div class="column-info col-md-8 col-sm-12 text-left align-middle"> 
+                                    <h4 className={styles.name}> Ross Forsyth </h4>
+                                    <h5 className={styles.company}>Human Design</h5>
+                                        <h6 className={styles.role}> Director Of Technology </h6>
+                                        <p className={styles.testimonyText} >DevLights is a great team to work with. Not only do they have the skills to get the job done but they communicate effectively at every level throughout the project. Their team was just what we needed!</p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
 
                             </div>
+                            
+                           
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Previous</span>
                         </a>
                         <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Next</span>
                         </a>
                         </div>
                             
@@ -68,6 +101,7 @@ const Testimony = ( props ) => {
 
               
                 </div>     
+
             </div> 
  
     );

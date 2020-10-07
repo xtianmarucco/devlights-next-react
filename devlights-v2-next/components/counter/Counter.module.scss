@@ -1,0 +1,56 @@
+
+.counterSection{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.counterContainer{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counterBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #353535;
+    border-radius: 30px;
+    height: 150px;
+    width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 25PX;
+}
+
+.dataCounter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.numberData{
+    font-family: "aleo";
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    
+}
+
+
+.textData{
+    font-family: "open sans";
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    margin-top: 8px;
+}

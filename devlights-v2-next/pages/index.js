@@ -9,6 +9,7 @@ import Clients from '../components/clients/Clients';
 import Testimony from '../components/testimony/Testimony';
 import Careers from '../components/careers/Careers';
 import Footer from '../components/footer/Footer';
+import Counter from '../components/counter/Counter';
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
       <About></About>
       <About2></About2>
       <Services></Services>
+      <Counter></Counter>
       <Technologies></Technologies>
       <Clients></Clients>
       <Testimony></Testimony>

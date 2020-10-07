@@ -1,15 +1,82 @@
 import React, { setState } from 'react';
 import styles from './Clients.module.scss';
+import useVisibilityToggler from '../hooks/useVisibilityToggler';
+
 import {
     FaMinus
   } from "react-icons/fa";
 
 const Clients = ( props ) => {
 
-    // state = {
-    //     isShown :false,
-    // }
+    const [ ClientCard, togglerCardVisibility ] = useVisibilityToggler(  
+        <div className="row">
+                    
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-13.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
 
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-16.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-17.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-14.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-20.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-11.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-5.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-12.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-8.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-18.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+                        <div id="hiddenCard" className="col-lg-3 col-md-4 col-6">
+                            <div className={styles.clientsLogo}>
+                                <img src="/client-15.png " className="img-fluid" alt=""/>
+                            </div>
+                        </div>
+                </div>  , true 
+         );
     return (
 
 
@@ -117,73 +184,17 @@ const Clients = ( props ) => {
 
                         <div className="col-lg-3 col-md-4 col-6">
                             <div className={styles.clientsLogo}>
-                                <img src="/client-13.png " className="img-fluid" alt=""/>
+                                <img src="/client-23.png " className="img-fluid" alt=""/>
                             </div>
                         </div>
+               
 
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-16.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-17.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-14.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-20.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-11.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-5.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-12.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-8.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-18.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-4 col-6">
-                            <div className={styles.clientsLogo}>
-                                <img src="/client-15.png " className="img-fluid" alt=""/>
-                            </div>
-                        </div>
-
+                        {ClientCard}
                     
                 <div className="container text-center">
-                    <button onClick={ () => this.setState({isShown:true}) } id="show-more-clients" className={styles.btn_2}>Show more</button>
+                    <button onClick={togglerCardVisibility} id="show-more-clients" className={styles.btn_2}>
+                                       {ClientCard ? 'show less' : 'Show more'} 
+                    </button>
                 </div>
                 </div>     
             </div> 

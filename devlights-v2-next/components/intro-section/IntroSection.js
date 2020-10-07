@@ -10,13 +10,16 @@ const IntroSection = (props) => {
             <div className="container" className={styles.introContainer}>
                 <div className="intro-info col-lg-6 col-md-6 col-xs-12 col-sm-12">
                 <h1 className={styles.introTitle}>We are a company dedicated to provide technological solutions.</h1 >
+                <div>
                 <a className={styles.btnWork} href="#contact">Let's work together</a>
+                 <a className={styles.popupYoutube} href="https://www.youtube.com/watch?v=2mC4zqdTWs4" id="fl-homepage-video">  </a>
+                </div>
+               
 
             </div>
                 
 
               
-                {/* <a className={styles.popupYoutube} href="https://www.youtube.com/watch?v=2mC4zqdTWs4" id="fl-homepage-video">  */}
                 <div className="intro-info col-lg-6 col-md-6 col-xs-12 col-sm-12">
                 <img class="img-fluid" src="/intro-img.png" alt=""/>
                 </div>
